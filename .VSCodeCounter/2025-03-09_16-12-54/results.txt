@@ -1,0 +1,61 @@
+Date : 2025-03-09 16:12:54
+Directory : /run/media/soroush1/Drive G/example-work
+Total : 21 files,  12736 codes, 19 comments, 89 blanks, all 12844 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          6 |     12,455 |          0 |          5 |     12,460 |
+| TypeScript         |          9 |        134 |          0 |         44 |        178 |
+| Markdown           |          1 |         68 |          2 |         29 |         99 |
+| JavaScript         |          1 |         33 |          1 |          1 |         35 |
+| JSON with Comments |          1 |         21 |          0 |          1 |         22 |
+| Prisma             |          1 |         14 |          4 |          4 |         22 |
+| MS SQL             |          2 |         11 |         12 |          5 |         28 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                 | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                    |         21 |     12,736 |         19 |         89 |     12,844 |
+| . (Files)                                                                                            |          8 |     12,568 |          3 |         35 |     12,606 |
+| prisma                                                                                               |          4 |         33 |         16 |         10 |         59 |
+| prisma (Files)                                                                                       |          2 |         22 |          4 |          5 |         31 |
+| prisma/migrations                                                                                    |          2 |         11 |         12 |          5 |         28 |
+| prisma/migrations/20250309110226_adduser                                                             |          1 |          8 |          2 |          2 |         12 |
+| prisma/migrations/20250309112844_changeunique                                                        |          1 |          3 |         10 |          3 |         16 |
+| src                                                                                                  |          7 |        105 |          0 |         38 |        143 |
+| src (Files)                                                                                          |          2 |         16 |          0 |          3 |         19 |
+| src/users                                                                                            |          5 |         89 |          0 |         35 |        124 |
+| test                                                                                                 |          2 |         30 |          0 |          6 |         36 |
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                             | language           | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| /run/media/soroush1/Drive G/example-work/.prettierrc                                                 | JSON               |          4 |          0 |          0 |          4 |
+| /run/media/soroush1/Drive G/example-work/README.md                                                   | Markdown           |         68 |          2 |         29 |         99 |
+| /run/media/soroush1/Drive G/example-work/eslint.config.mjs                                           | JavaScript         |         33 |          1 |          1 |         35 |
+| /run/media/soroush1/Drive G/example-work/nest-cli.json                                               | JSON               |          8 |          0 |          1 |          9 |
+| /run/media/soroush1/Drive G/example-work/package-lock.json                                           | JSON               |     12,354 |          0 |          1 |     12,355 |
+| /run/media/soroush1/Drive G/example-work/package.json                                                | JSON               |         76 |          0 |          1 |         77 |
+| /run/media/soroush1/Drive G/example-work/prisma/migrations/20250309110226_adduser/migration.sql      | MS SQL             |          8 |          2 |          2 |         12 |
+| /run/media/soroush1/Drive G/example-work/prisma/migrations/20250309112844_changeunique/migration.sql | MS SQL             |          3 |         10 |          3 |         16 |
+| /run/media/soroush1/Drive G/example-work/prisma/prisma.service.ts                                    | TypeScript         |          8 |          0 |          1 |          9 |
+| /run/media/soroush1/Drive G/example-work/prisma/schema.prisma                                        | Prisma             |         14 |          4 |          4 |         22 |
+| /run/media/soroush1/Drive G/example-work/src/app.module.ts                                           | TypeScript         |          9 |          0 |          2 |         11 |
+| /run/media/soroush1/Drive G/example-work/src/main.ts                                                 | TypeScript         |          7 |          0 |          1 |          8 |
+| /run/media/soroush1/Drive G/example-work/src/users/users.controller.spec.ts                          | TypeScript         |         14 |          0 |          5 |         19 |
+| /run/media/soroush1/Drive G/example-work/src/users/users.controller.ts                               | TypeScript         |         10 |          0 |          3 |         13 |
+| /run/media/soroush1/Drive G/example-work/src/users/users.repository.ts                               | TypeScript         |         29 |          0 |         11 |         40 |
+| /run/media/soroush1/Drive G/example-work/src/users/users.service.spec.ts                             | TypeScript         |         14 |          0 |          5 |         19 |
+| /run/media/soroush1/Drive G/example-work/src/users/users.service.ts                                  | TypeScript         |         22 |          0 |         11 |         33 |
+| /run/media/soroush1/Drive G/example-work/test/app.e2e-spec.ts                                        | TypeScript         |         21 |          0 |          5 |         26 |
+| /run/media/soroush1/Drive G/example-work/test/jest-e2e.json                                          | JSON               |          9 |          0 |          1 |         10 |
+| /run/media/soroush1/Drive G/example-work/tsconfig.build.json                                         | JSON               |          4 |          0 |          1 |          5 |
+| /run/media/soroush1/Drive G/example-work/tsconfig.json                                               | JSON with Comments |         21 |          0 |          1 |         22 |
+| Total                                                                                                |                    |     12,736 |         19 |         89 |     12,844 |
++------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

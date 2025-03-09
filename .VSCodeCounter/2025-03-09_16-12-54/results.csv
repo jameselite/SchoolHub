@@ -1,0 +1,23 @@
+"filename", "language", "JSON", "JSON with Comments", "TypeScript", "Prisma", "MS SQL", "Markdown", "JavaScript", "comment", "blank", "total"
+"/run/media/soroush1/Drive G/example-work/.prettierrc", "JSON", 4, 0, 0, 0, 0, 0, 0, 0, 0, 4
+"/run/media/soroush1/Drive G/example-work/README.md", "Markdown", 0, 0, 0, 0, 0, 68, 0, 2, 29, 99
+"/run/media/soroush1/Drive G/example-work/eslint.config.mjs", "JavaScript", 0, 0, 0, 0, 0, 0, 33, 1, 1, 35
+"/run/media/soroush1/Drive G/example-work/nest-cli.json", "JSON", 8, 0, 0, 0, 0, 0, 0, 0, 1, 9
+"/run/media/soroush1/Drive G/example-work/package-lock.json", "JSON", 12354, 0, 0, 0, 0, 0, 0, 0, 1, 12355
+"/run/media/soroush1/Drive G/example-work/package.json", "JSON", 76, 0, 0, 0, 0, 0, 0, 0, 1, 77
+"/run/media/soroush1/Drive G/example-work/prisma/migrations/20250309110226_adduser/migration.sql", "MS SQL", 0, 0, 0, 0, 8, 0, 0, 2, 2, 12
+"/run/media/soroush1/Drive G/example-work/prisma/migrations/20250309112844_changeunique/migration.sql", "MS SQL", 0, 0, 0, 0, 3, 0, 0, 10, 3, 16
+"/run/media/soroush1/Drive G/example-work/prisma/prisma.service.ts", "TypeScript", 0, 0, 8, 0, 0, 0, 0, 0, 1, 9
+"/run/media/soroush1/Drive G/example-work/prisma/schema.prisma", "Prisma", 0, 0, 0, 14, 0, 0, 0, 4, 4, 22
+"/run/media/soroush1/Drive G/example-work/src/app.module.ts", "TypeScript", 0, 0, 9, 0, 0, 0, 0, 0, 2, 11
+"/run/media/soroush1/Drive G/example-work/src/main.ts", "TypeScript", 0, 0, 7, 0, 0, 0, 0, 0, 1, 8
+"/run/media/soroush1/Drive G/example-work/src/users/users.controller.spec.ts", "TypeScript", 0, 0, 14, 0, 0, 0, 0, 0, 5, 19
+"/run/media/soroush1/Drive G/example-work/src/users/users.controller.ts", "TypeScript", 0, 0, 10, 0, 0, 0, 0, 0, 3, 13
+"/run/media/soroush1/Drive G/example-work/src/users/users.repository.ts", "TypeScript", 0, 0, 29, 0, 0, 0, 0, 0, 11, 40
+"/run/media/soroush1/Drive G/example-work/src/users/users.service.spec.ts", "TypeScript", 0, 0, 14, 0, 0, 0, 0, 0, 5, 19
+"/run/media/soroush1/Drive G/example-work/src/users/users.service.ts", "TypeScript", 0, 0, 22, 0, 0, 0, 0, 0, 11, 33
+"/run/media/soroush1/Drive G/example-work/test/app.e2e-spec.ts", "TypeScript", 0, 0, 21, 0, 0, 0, 0, 0, 5, 26
+"/run/media/soroush1/Drive G/example-work/test/jest-e2e.json", "JSON", 9, 0, 0, 0, 0, 0, 0, 0, 1, 10
+"/run/media/soroush1/Drive G/example-work/tsconfig.build.json", "JSON", 4, 0, 0, 0, 0, 0, 0, 0, 1, 5
+"/run/media/soroush1/Drive G/example-work/tsconfig.json", "JSON with Comments", 0, 21, 0, 0, 0, 0, 0, 0, 1, 22
+"Total", "-", 12455, 21, 134, 14, 11, 68, 33, 19, 89, 12844
