@@ -1,35 +1,35 @@
 import { HttpException, Injectable } from '@nestjs/common';
 import { Students } from '@prisma/client';
 import { PrismaService } from 'prisma/prisma.service';
-import { InputStudent, OutputStudent } from './DTO/students.dto';
+import { InputRegisterStudent, OutputRegisterStudent } from './DTO/students.dto';
 import * as bcrypt from "bcryptjs";
 
 @Injectable()
 export class StudentsRepository {
     constructor (private readonly prisma: PrismaService) {}
 
-    async FindOnEmail(email: string): Promise<void> {
+    async FindOnEmail(email: string): Promise<Students | null> {
         if(!email) throw new HttpException("Email can not be empty.", 400);
 
         const student: Students | null = await this.prisma.students.findUnique({ where: { email: email }});
-        if (student) throw new HttpException("Email is used.", 400);
+        return student;
     }
 
-    async FindOnPhone(phone: string): Promise<void> {
+    async FindOnPhone(phone: string): Promise<Students | null> {
         if(!phone) throw new HttpException("Phone can not be empty.", 400);
 
         const student: Students | null = await this.prisma.students.findUnique({ where: { phone: phone }});
-        if (student) throw new HttpException("Phone is used.", 400);
+        return student;
     }
 
-    async FindOnCode(code: string): Promise<void> {
+    async FindOnCode(code: string): Promise<Students | null> {
         if(!code) throw new HttpException("Student code can not be empty.", 400);
 
         const student: Students | null = await this.prisma.students.findUnique({ where: { student_code: code }});
-        if (student) throw new HttpException("Student code is used.", 400);
+        return student;
     }
 
-    async CreateStudent(input: InputStudent): Promise<OutputStudent> {
+    async CreateStudent(input: InputRegisterStudent): Promise<OutputRegisterStudent> {
         const hashedPassword: string = await bcrypt.hash(input.password, 10);
     
         const student = await this.prisma.students.create({
@@ -41,6 +41,8 @@ export class StudentsRepository {
                 password: hashedPassword,
                 degree: input.degree,
                 fullname: input.fullname,
+                created_at: String(new Date()),
+                updated_at: String(new Date())
             },
         });
     

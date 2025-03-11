@@ -28,6 +28,8 @@ model Students {
   class Classes? @relation(fields: [classid], references: [id])
   classid Int? 
   lessons Lessons[] @relation("StudentsLessons")
+  created_at String
+  updated_at String
 }
 
 model Parents {
@@ -38,6 +40,8 @@ model Parents {
   fullname String
   student_code String @unique
   children Students[] 
+  created_at String
+  updated_at String
 }
 
 model Teachers {
@@ -50,6 +54,8 @@ model Teachers {
   credit_card String @unique
   fullname String
   classes Classes[]
+  created_at String
+  updated_at String
 }
 
 model Classes {
@@ -58,10 +64,14 @@ model Classes {
   teacher Teachers @relation(fields: [teacherid], references: [id])
   teacherid Int
   class_code String @unique
+  created_at String
+  updated_at String
 }
 
 model Lessons {
   id Int @default(autoincrement()) @unique @id
   name String @unique
   students Students[] @relation("StudentsLessons")
+  created_at String
+  updated_at String
 }
